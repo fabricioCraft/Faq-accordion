@@ -1,6 +1,6 @@
 body {
     background-color: hsl(275, 100%, 97%);
-    font-family: 'WorkSans';
+    font-family: 'Work Sans';
     color: hsl(292, 42%, 14%);
 
 
@@ -56,7 +56,7 @@ div.content {
     height: auto;
     border-radius: 15px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.402);
-    font-family: 'WorkSans';
+
 
 }
 
@@ -100,6 +100,6 @@ h1 {
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf') format(truetype);
+    font-family: 'Work Sans';
+    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf') format(truetype);
 }
