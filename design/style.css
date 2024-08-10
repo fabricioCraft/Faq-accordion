@@ -1,0 +1,105 @@
+body {
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'WorkSans';
+    color: hsl(292, 42%, 14%);
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.fotofundo {
+    width: 100%;
+    /* ocupa toda a largura da página*/
+    margin: 0;
+    /*elimina a margem do topo*/
+    position: absolute;
+    /* posiciona a imagem absolutamente*/
+    top: 0;
+    /* posiciona a imagem no topo da página*/
+    left: 0;
+    /* posiciona a imagem à esquerda da página*/
+    z-index: -1;
+    /* envia a imagem para trás do conteúdo*/
+
+}
+
+.question strong:hover {
+    color: hsl(280, 78%, 54%);
+    cursor: pointer;
+
+}
+.question{
+    margin-bottom: 25px;
+}
+
+.container-qa{
+    margin-bottom: 35px; 
+    border-bottom: 0.5px hsl(294, 36%, 83%)solid;
+
+}
+
+
+
+div.content {
+    background-color: white;
+    padding: 20px;
+    margin: 215px auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.402);
+    font-family: 'WorkSans';
+
+}
+
+
+.minus,.plus {
+    float: right;
+    /*Muda a posição da imagem na horizontal*/
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+    cursor: pointer;
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+p {
+    text-align: left;
+    margin-top: 0.5px;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf') format(truetype);
+}
