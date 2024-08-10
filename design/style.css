@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
     background-color: hsl(275, 100%, 97%);
-    font-family: 'Work Sans';
     color: hsl(292, 42%, 14%);
 
 
@@ -48,6 +52,7 @@ header {
 
 div.content {
     background-color: white;
+    font-family: 'Work Sans';
     padding: 20px;
     margin: 215px auto;
     display: flex;
@@ -97,9 +102,4 @@ p {
 
 h1 {
     margin-left: 15px;
-}
-
-@font-face {
-    font-family: 'Work Sans';
-    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf') format(truetype);
 }
